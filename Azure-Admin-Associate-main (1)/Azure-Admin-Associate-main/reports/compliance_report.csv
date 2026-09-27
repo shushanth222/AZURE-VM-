@@ -1,0 +1,2 @@
+Scan Time,VM Name,Resource Group,Required Extension,Installed Extension,Status
+2026-09-27 01:46:22,vm-extension-01,RG-VM-EXTENSION-STANDARD,AzureMonitorLinuxAgent,AzureMonitorLinuxAgent,COMPLIANT

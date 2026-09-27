@@ -1,0 +1,37 @@
+{
+    "vms": [
+        {
+            "name": "vm-extension-01",
+            "resource_group": "RG-VM-EXTENSION-STANDARD",
+            "location": "centralindia",
+            "extensions": [
+                {
+                    "name": "AzureMonitorLinuxAgent",
+                    "status": "Succeeded"
+                }
+            ]
+        },
+        {
+            "name": "vm-extension-02",
+            "resource_group": "RG-PROTOTYPE-01",
+            "location": "centralindia",
+            "extensions": [
+                {
+                    "name": "AzureMonitorLinuxAgent",
+                    "status": "Succeeded"
+                }
+            ]
+        },
+        {
+            "name": "vm-extension-03",
+            "resource_group": "RG-PROTOTYPE-01",
+            "location": "centralindia",
+            "extensions": [
+                {
+                    "name": "AzureMonitorLinuxAgent",
+                    "status": "Failed"
+                }
+            ]
+        }
+    ]
+}
